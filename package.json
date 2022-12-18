@@ -1,0 +1,23 @@
+{
+  "name": "ffxi-infobar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convert": "ts-node convert.ts",
+    "example": "ts-node convert.ts example.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.11.17"
+  },
+  "dependencies": {
+    "@types/lua-json": "^1.0.1",
+    "lodash": "^4.17.21",
+    "ts-node": "^10.9.1",
+    "zod": "^3.20.2"
+  }
+}
