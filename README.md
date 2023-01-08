@@ -22,7 +22,7 @@ You'll need to export your data from the SQLIte database to JSON. Most SQL
 clients will offer this function, however, the shape of the exported JSON is
 important. The structure of the JSON needs to be flat:
 
-```
+```js
 [
     {
         "drops": "Empress Hairpin, Insect Wing",
@@ -66,7 +66,7 @@ add bloat. These fields include `allakhazam_id` and `atlas_id`.
 
 The structure of the converted Lua is as follows:
 
-```
+```lua
 {
   ['Valkurm Dunes'] = {
     ['Valkurm Emperor'] = {
