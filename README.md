@@ -68,18 +68,15 @@ The structure of the converted Lua is as follows:
 
 ```lua
 {
-  ['Valkurm Dunes'] = {
-    ['Valkurm Emperor'] = {
-      drops = {
-        'Empress Hairpin',
-        'Insect Wing',
-      },
-      family: "Fly",
-      -- more fields...
+  ['Valkurm Emperor'] = {
+    drops = {
+      'Empress Hairpin',
+      'Insect Wing',
     },
-    -- more enemies...
+    family: "Fly",
+    -- more fields...
   },
-  -- more zones...
+  -- more enemies...
 }
 ```
 
